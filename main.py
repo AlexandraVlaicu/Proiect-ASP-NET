@@ -14,7 +14,7 @@ class NodArbore:
 
     def inDrum(self,infoNod):
         nod=self
-        if infoNod == nod.informatie:
+        if infoNod == nod.informa
             return True
         while nod.parinte:
             nod=nod.parinte
