@@ -12,7 +12,7 @@ class NodArbore:
             l.insert(0, nod)
         return l
 
-    def inDrum(self,infoNod):
+    def oNod):
         nod=self
         if infoNod == nod.informatie:
             return True
