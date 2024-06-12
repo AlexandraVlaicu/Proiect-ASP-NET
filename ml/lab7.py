@@ -10,7 +10,7 @@ import numpy as np
 def plot3d_data(X, y):
     ax = plt.axes(projection='3d')
     ax.scatter3D(X[y == -1, 0], X[y == -1, 1], X[y == -1, 2],'b');
-    ax.scatter3D(X[y == 1, 0], X[y == 1, 1], X[y == 1, 2],'r'); 
+    ax.scatter3D(X[y == 1, 0], X[y == 1, 1], X[y == 1, 2],''); 
     plt.show()
     
 def plot3d_data_and_decision_function(X, y, W, b): 
