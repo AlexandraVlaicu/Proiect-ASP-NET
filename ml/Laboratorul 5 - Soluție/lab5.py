@@ -10,10 +10,8 @@ from bag_of_words import *
 # load data
 training_data = np.load('data/training_sentences.npy')
 training_labels = np.load('data/training_labels.npy')
-
 test_data = np.load('data/test_sentences.npy')
 test_labels = np.load('data/test_labels.npy')
-
 
 bow_model = Bag_of_words()
 bow_model.build_vocabulary(training_data) 
